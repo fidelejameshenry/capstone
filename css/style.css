@@ -1,11 +1,11 @@
+
 body {
     background-color: #90e0ef;
     font-family: "Caveat", cursive;
     text-align: center;
     height: 100vh;
     syntax: normal;
-    nesting: normal;
-
+    font-size: 26px;
 }
 header {
     background-color: #03045e;
@@ -14,10 +14,23 @@ header {
 h1 {
     font-size: 3em;
     font-weight: bold;
+    border: 5px solid #11dc5e;
+    padding: 20px;
+    margin: 20px auto;
+    width: 100%;
+    height: 100%;
+}
+h3 {
+    border-bottom: 3px solid #0cc64a;
 }
 section {
     background-color: #18b532;
     color: purple;
+    border: 5px solid purple;
+}
+.single-player {
+    background-color: #b51818;
+    color: rgb(23, 196, 202);
 }
 footer {
     background-color: #0408f4;
@@ -28,4 +41,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+footer {
+    border:#b51818 solid 8px;
 }
