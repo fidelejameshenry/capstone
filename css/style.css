@@ -1,11 +1,13 @@
 
 body {
-    background-color: #90e0ef;
+    /* background-color: #90e0ef; */
     font-family: "Caveat", cursive;
     text-align: center;
     height: 100vh;
     syntax: normal;
     font-size: 26px;
+    background-image: url('../images/grass.avif');
+    background-repeat: repeat;
 }
 header {
     background-color: #03045e;
@@ -16,7 +18,7 @@ h1 {
     font-weight: bold;
     border: 5px solid #11dc5e;
     padding: 20px;
-    margin: 20px auto;
+    margin: 30px auto;
     width: 100%;
     height: 100%;
 }
@@ -27,9 +29,10 @@ section {
     background-color: #18b532;
     color: purple;
     border: 5px solid purple;
+    margin: 30px auto;
 }
 .single-player {
-    background-color: #b51818;
+    background-color: #b51818; 
     color: rgb(23, 196, 202);
 }
 footer {
@@ -43,5 +46,28 @@ a:hover {
     text-decoration: underline;
 }
 footer {
-    border:#b51818 solid 8px;
+    border:#b51818 solid 3px;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.box {
+    background-image: url('../images/grass.avif');
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+}
+.banner {
+    height: 450px;
+    width: 450px;
+    background-image: url('../images/gamezone.avif');
+    background-size: cover;
+    background-position: center;
+}
+.photo {
+    background-position: 50% right;
+}
+.icon {
+    background-position: 0 100px;
 }
